@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  --background: #161618;
+  color: white;
+  margin: 0;
+  padding: 0;
+
+  --mid: #222124;
+  --highlight: #2B2B2D;
+  background-color: var(--background);
+}
