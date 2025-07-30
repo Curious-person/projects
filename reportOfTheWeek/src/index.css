@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import "tailwindcss";
-@tailwind components;
-@tailwind utilities;
+
+@theme {
+  --color-background: #161618;
+  --color-mid: #222124;
+  --color-highlight: #2B2B2D;
+  --color-text: #FFFFFF;
+  --color-icon: #4C4C4F;
+}
 
 
 :root {
